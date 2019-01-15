@@ -36,14 +36,21 @@ https://www.paraview.org/download/ for ParaView
 
 ### Running the program
 
-1. Input numerical values in the file 'variables module.f90'
+1. Input numerical values for the mesh size and viscosity, in the file 'variables module.f90'.
  ```fortran
  ! Parameters for reading data to be modified
  integer ,parameter :: nx=11,ny=11,nz=1 ! nx and ny correpond to the number of cells in x and y direction
  real*8 ,parameter :: nu = 1e-02, dt2 = 1e-04 ! nu is the fluid viscosity and dt2 is the initial timestep. 
  ```
- Modifying and tuning these values in order to have an orthogonal mesh or not, diffusion and/or advection...
-
+2. Simulation parameters to be defined in the main program 'main.f90'.
+```fortran
+!!! Parameters for the simulation
+  zeta=1.e-8       ! zeta and itmax for solving pressure matrix in ICCG2 subroutines
+  itmax=300
+  time = 0.        ! initialize time of simulation
+  nstep = 20000    ! number of timesteps for the simulation
+  isto = 200       ! data stored every 'isto' steps
+```
 2. Use the **Makefile** to compile all the files and create the executable (run the command 'make' while being in the main directory of the program).
 
 3. Launch the executable, which will create the mesh and run the discretised calculation on the latter.
