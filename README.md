@@ -31,7 +31,7 @@ https://www.paraview.org/download/ for ParaView
 * '.f90' files in which the main code, as well as the different subroutines are programmed.
 * 'Makefile' to compile the code.
 * In the directory 'Documents', there are 3 files in PDF format:     
--> 2 papers 'cavityflow.pdf' and 'ghia82', which treat of the lid driven cavity problem for incompressible flows.   
+-> 2 papers 'cavityflow.pdf' and 'ghia82.pdf', which treat of the lid driven cavity problem for incompressible flows.   
 -> 'Program_presentation.pdf' which describe all the steps followed in the code implementation
 
 ### Running the program
