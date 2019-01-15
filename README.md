@@ -37,12 +37,12 @@ https://www.paraview.org/download/ for ParaView
 ### Running the program
 
 1. Input numerical values in the file 'variables module.f90'
-        ```fortran
-        ! Parameters for reading data to be modified
-        integer ,parameter :: nx=11,ny=11,nz=1 ! nx and ny correpond to the number of cells in x and y direction
-        real*8 ,parameter :: nu = 1e-02, dt2 = 1e-04 ! nu is the fluid viscosity and dt2 is the initial timestep. 
-        ```
-    Modifying and tuning these values in order to have an orthogonal mesh or not, diffusion and/or advection...
+ ```fortran
+ ! Parameters for reading data to be modified
+ integer ,parameter :: nx=11,ny=11,nz=1 ! nx and ny correpond to the number of cells in x and y direction
+ real*8 ,parameter :: nu = 1e-02, dt2 = 1e-04 ! nu is the fluid viscosity and dt2 is the initial timestep. 
+ ```
+ Modifying and tuning these values in order to have an orthogonal mesh or not, diffusion and/or advection...
 
 2. Use the **Makefile** to compile all the files and create the executable (run the command 'make' while being in the main directory of the program).
 
