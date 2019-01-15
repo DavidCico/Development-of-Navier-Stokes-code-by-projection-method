@@ -1,5 +1,5 @@
 # Development-of-Navier-Stokes-code-by-projection-method
-This code is a Fortran implementation of a 2D flow using FVM. The flow of a passive scalar is modelled, and visualization of the field is done with Paraview.
+This code is a Fortran implementation of a 2D flow using projection method with FVM. Navier Stokes equations are solved for velocity and pressure fields. The rotational of velocity is also calculated, and the output data can be visualized with Ensight.
 
 ## Getting Started
 
