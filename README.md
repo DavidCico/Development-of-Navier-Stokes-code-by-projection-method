@@ -1,5 +1,5 @@
 # Development-of-Navier-Stokes-code-by-projection-method
-This code is a Fortran implementation of a 2D flow using projection method with FVM. Navier Stokes equations are solved for velocity and pressure fields. The rotational of velocity is also calculated, and the output data can be visualized with Ensight.
+This code is a Fortran implementation of a 2D flow using projection method with FVM. Navier Stokes equations are solved for velocity and pressure fields. The rotational of velocity is also calculated, and the output data can be visualized with Ensight or Paraview.
 
 ## Getting Started
 
@@ -17,6 +17,8 @@ Alongside the GFortran compiler, the open-source platform for data analysis and 
 
     sudo apt-get update
     sudo apt-get install paraview
+
+Paraview is preferred compared to Ensight as it is free and open-source, so that everybody can use it.
 
 For other Linux flavors, OS X and Windows, packages are available at:
 
