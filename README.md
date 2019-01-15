@@ -55,9 +55,9 @@ https://www.paraview.org/download/ for ParaView
 
 4. Launch the executable <i>NS_lid_driven_cavity</i>, which will create the mesh and run the discretised calculation on the latter.
 
-4. Observe the concentration field on the domain using Paraview (open sol.pvd).
+5. Observe the different fields (u, v, p and omega) on the domain using Paraview. Ensight6 and Ensight Gold formats are normally supported by Paraview. 
 
-5. Remove the created files thanks to the commands 'make clean' et 'make solclean'.
+6. Remove the created files thanks to the commands 'make clean' and 'make cleanall'.
 
 ## Contributing
 
