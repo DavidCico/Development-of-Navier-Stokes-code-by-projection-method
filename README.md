@@ -51,9 +51,9 @@ https://www.paraview.org/download/ for ParaView
   nstep = 20000    ! number of timesteps for the simulation
   isto = 200       ! data stored every 'isto' steps
 ```
-2. Use the **Makefile** to compile all the files and create the executable (run the command 'make' while being in the main directory of the program).
+3. Use the **Makefile** to compile all the files and create the executable (run the command 'make' while being in the main directory of the program).
 
-3. Launch the executable, which will create the mesh and run the discretised calculation on the latter.
+4. Launch the executable <i>NS_lid_driven_cavity</i>, which will create the mesh and run the discretised calculation on the latter.
 
 4. Observe the concentration field on the domain using Paraview (open sol.pvd).
 
