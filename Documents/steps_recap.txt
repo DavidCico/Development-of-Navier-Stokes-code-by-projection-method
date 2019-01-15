@@ -1,0 +1,7 @@
+In u_star and v_star calculation
+
+Velocities with index 1/2 are represented by letters (8 in total). This is due to the conditions on u_tilde et v_tilde.
+
+(a,b,c,d) for calculations in x
+(e,f,g,h) for calculations in y
+
