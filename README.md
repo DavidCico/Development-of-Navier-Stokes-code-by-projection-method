@@ -29,12 +29,10 @@ https://www.paraview.org/download/ for ParaView
 ## File descriptions
 
 * '.f90' files in which the main code, as well as the different subroutines are programmed.
-* 'physical_data.txt' which contains the different parameters to define the domain of computation, mesh size, and other parameters such as CFL or Fourier numbers.
-* In the output directory 'ex_output_files', there are four files:     
--> 2 output *.vts files at t=0 et Tf/2    
--> 2 output *.txt files of velocity profile in x=1 for different data 
-
-* 4 animations in the 'animations' directory.
+* 'Makefile' to compile the code.
+* In the directory 'Documents', there are 3 files in PDF format:     
+-> 2 papers 'cavityflow.pdf' and 'ghia82', which treat of the lid driven cavity problem for incompressible flows.   
+-> 'Program_presentation.pdf' which describe all the steps followed in the code implementation
 
 ### Running the program
 
