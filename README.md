@@ -58,7 +58,7 @@ https://www.paraview.org/download/ for ParaView
 
 4. Launch the executable <i>NS_lid_driven_cavity</i>, which will create the mesh and run the discretised calculation on the latter.
 
-<p align="justify">5. Observe the different fields (u, v, p and omega) on the domain using Paraview. Ensight6 and Ensight Gold formats are normally supported by Paraview.</p>
+<p align="justify">&emsp;5. Observe the different fields (u, v, p and omega) on the domain using Paraview. Ensight6 and Ensight Gold formats are normally supported by Paraview.</p>
 
 6. Remove the created files thanks to the commands 'make clean' and 'make cleanall'.
 
