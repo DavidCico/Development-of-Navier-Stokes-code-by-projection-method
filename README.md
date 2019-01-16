@@ -37,6 +37,7 @@ https://www.paraview.org/download/ for ParaView
     </li>
 </ul>
 
+
 ### Running the program
 
 1. Input numerical values for the mesh size and viscosity, in the file 'variables module.f90'.
