@@ -1,24 +1,24 @@
 # Development-of-Navier-Stokes-code-by-projection-method
-This code is a Fortran implementation of a 2D flow using projection method with FVM. Navier Stokes equations are solved for velocity and pressure fields. The rotational of velocity is also calculated, and the output data can be visualized with Ensight or Paraview.
+<p align="justify">This code is a Fortran implementation of a 2D flow using projection method with FVM. Navier Stokes equations are solved for velocity and pressure fields. The rotational of velocity is also calculated, and the output data can be visualized with Ensight or Paraview.</p>
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+<p align="justify">These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.</p>
 
 ### Prerequisites
 
-The code being implemented in Fortran 90, and Fortran being a compiled language, it requires a compiler such as <a href="https://gcc.gnu.org/wiki/GFortran">GFortran</a>.
+<p align="justify">The code being implemented in Fortran 90, and Fortran being a compiled language, it requires a compiler such as <a href="https://gcc.gnu.org/wiki/GFortran">GFortran</a>.</p>
 
 In Ubuntu, Mint and Debian you can install GFortran like this:
 
     sudo apt-get install gfortran
     
-Alongside the GFortran compiler, the open-source platform for data analysis and visualization, <a href="https://www.paraview.org/">ParaView</a>, is also required and installed through the commands:
+<p align="justify">Alongside the GFortran compiler, the open-source platform for data analysis and visualization, <a href="https://www.paraview.org/">ParaView</a>, is also required and installed through the commands:</p>
 
     sudo apt-get update
     sudo apt-get install paraview
 
-Paraview is preferred compared to Ensight as it is free and open-source, so that everybody can use it.
+<p align="justify">Paraview is preferred compared to Ensight as it is free and open-source, so that everybody can use it.</p>
 
 For other Linux flavors, OS X and Windows, packages are available at:
 
@@ -27,12 +27,15 @@ https://www.paraview.org/download/ for ParaView
 
 
 ## File descriptions
-
-* '.f90' files in which the main code, as well as the different subroutines are programmed.
-* 'Makefile' to compile the code.
-* In the directory 'Documents', there are 3 files in PDF format:     
--> 2 papers 'cavityflow.pdf' and 'ghia82.pdf', which treat of the lid driven cavity problem for incompressible flows.   
--> 'Program_presentation.pdf' which describe all the steps followed in the code implementation
+<ul>
+    <li>'.f90' files in which the main code, as well as the different subroutines are programmed.</li>
+    <li>'Makefile' to compile the code.</li>
+    <li>In the directory 'Documents', there are 3 files in PDF format:
+        <ul>
+            <li>2 papers 'cavityflow.pdf' and 'ghia82.pdf', which treat of the lid driven cavity problem for incompressible flows.</li>             <li>'Program_presentation.pdf' which describe all the steps followed in the code implementation.</li>
+        <ul>
+    </li>
+</ul>
 
 ### Running the program
 
