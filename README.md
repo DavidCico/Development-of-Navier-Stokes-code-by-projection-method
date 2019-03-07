@@ -28,7 +28,7 @@ https://www.paraview.org/download/ for ParaView
 
 ## File descriptions
 <ul>
-    <li>'<em>.f90</em>' files in which the main code, as well as the different subroutines are programmed.</li>
+    <li>'<em>*.f90</em>' files in which the main code, as well as the different subroutines are programmed.</li>
     <li>'<em>Makefile</em>' to compile the code.</li>
     <li>In the directory '<em>Documents</em>', there are 3 files in PDF format:
         <ul>
