@@ -33,7 +33,7 @@ https://www.paraview.org/download/ for ParaView
     <li>In the directory '<em>Documents</em>', there are 3 files in PDF format:
         <ul>
             <li>2 papers '<em>cavityflow.pdf</em>' and '<em>ghia82.pdf</em>', which treat of the lid driven cavity problem for incompressible flows.</li>             
-            <li>'<em>Program_presentation.pdf</em>' which describe all the steps followed in the code implementation.</li>
+            <li>'<em>Program_presentation.pdf</em>' which describes all the steps followed in the code implementation.</li>
         </ul>
     </li>
 </ul>
