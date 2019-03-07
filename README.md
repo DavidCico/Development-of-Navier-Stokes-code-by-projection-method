@@ -28,11 +28,12 @@ https://www.paraview.org/download/ for ParaView
 
 ## File descriptions
 <ul>
-    <li>'.f90' files in which the main code, as well as the different subroutines are programmed.</li>
-    <li>'Makefile' to compile the code.</li>
-    <li>In the directory 'Documents', there are 3 files in PDF format:
+    <li>'<em>.f90</em>' files in which the main code, as well as the different subroutines are programmed.</li>
+    <li>'<em>Makefile</em>' to compile the code.</li>
+    <li>In the directory '<em>Documents</em>', there are 3 files in PDF format:
         <ul>
-            <li>2 papers 'cavityflow.pdf' and 'ghia82.pdf', which treat of the lid driven cavity problem for incompressible flows.</li>             <li>'Program_presentation.pdf' which describe all the steps followed in the code implementation.</li>
+            <li>2 papers '<em>cavityflow.pdf</em>' and '<em>ghia82.pdf</em>', which treat of the lid driven cavity problem for incompressible flows.</li>             
+            <li>'<em>Program_presentation.pdf</em>' which describe all the steps followed in the code implementation.</li>
         </ul>
     </li>
 </ul>
