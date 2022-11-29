@@ -4,7 +4,7 @@ program NS_lid_driven_cavity
 
   call reading_data()         ! reading some data for mesh creation and calculation
   call mesh_creation()        ! creating the mesh for the simulation
-  call inital_conditions()    ! initializing conditions
+  call initial_conditions()    ! initializing conditions
   call boundary_conditions()  ! boundary conditions of the domain
 
   write(*,*) 'Choice of numerical scheme: 1-Upwind; 2-Centred'
